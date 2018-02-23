@@ -6,6 +6,7 @@ mongoose.connect('mongodb://localhost/nodeappdatabase');
 mongoose.set('debug', true);
 
 
+
 // new user Schema
 const userSchema = new Schema({
     name: String,
