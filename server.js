@@ -3,9 +3,9 @@ const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
 //mongoose.connect('mongodb://localhost/nodeappdatabase', {
-mongoose.connect('mongodb://user1:password1@ds135917.mlab.com:35917/db1', {
-    useMongoClient: true
-});
+mongoose.connect('mongodb://kodilla:kodilla1@ds249128.mlab.com:49128/mydatabase2');
+
+
 
 //new user Schema
 const userSchema = new Schema({
